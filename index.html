@@ -14,14 +14,20 @@
 <div class="wrapper">
 
 	<p>Hover right at the bottom red border to see the jumpy behavior</p>
-	<div class="circle objective circle__red-border"></div>
-
+	<div class="circle__wrapper">
+		<div class="circle objective circle__red-border"></div>
+	</div>
+	<p>What happens here is that the functions used (mouseover & mouseout) are triggered
+	continuously as soon as the mouse-is-over & when the mouse-is-out</p>
 </div>
 
 <div class="wrapper">
 
 	<p>This is using the bouncing function</p>
-	<div class="circle objective2 circle__red-border"></div>
+	<div class="circle__wrapper">
+		<div class="circle objective2 circle__red-border"></div>
+	</div>
+	<p>In this case, we added a bouncing function, which constraints these functions to trigger in about 400ms.</p>
 
 </div>
 

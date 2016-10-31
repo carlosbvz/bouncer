@@ -7,6 +7,10 @@
 	float: left;
 	padding-top: 20px;
 }
+.wrapper p {
+	width: 400px;
+	margin: 0 auto;
+}
 .box {
 	width: 200px;
 	height: 200px;
@@ -25,6 +29,10 @@
 	background-color: rgb(234, 234, 255);
 	margin-left: auto;
 	margin-right: auto;
+}
+.circle__wrapper {
+	height: 200px;
+	margin-bottom: 50px;
 }
 .circle__red-border {
 	border-bottom: 2px solid red;
