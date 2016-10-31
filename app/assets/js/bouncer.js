@@ -2,8 +2,8 @@ var bouncer = (function(){
 	'use strict';
 
 	var queue = [];
-						//(required , required, optional)
-	var trigger = function(timeToBounce, bouncedFunction,params) {
+						//(required ,    required,       optional)
+	var trigger = function(timeToBounce, bouncedFunction, params) {
 		if(!params) params = '';
 		var triggered = false;
 
